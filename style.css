@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Prevent scroll */
+body {
+    overflow: hidden;
+}
+
+/* Navbar */
+.navbar {
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4vw;
+    background-color: #f8f8f8;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.list {
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+}
+
+.username-box {
+    background-color: #e9f4ff;
+    padding: 8px 18px;
+    border-radius: 200px;
+    color: #007bff;
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+    height: calc(100vh - 100px); /* full screen minus navbar */
+    width: 100vw;
+    display : flex;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.hero-left{
+    width: 50%;
+}
+
+.hero-left h1{
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hero-left h1 span{
+    color: #2b7de9;
+}
+
+.hero-left p {
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.hero-left button{
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2b7de9;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-right img {
+    width: 350px;
+}
